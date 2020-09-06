@@ -14,7 +14,7 @@ const User = require('./models/user');
 
 const MONGODB_URI =
  
-'mongodb+srv://Bee4321:Bee1234@cluster0.be5ue.mongodb.net/shop';
+'Your MongoDB URI';
 app = express();
 const store = new MongoDBStore({
   uri: MONGODB_URI,
