@@ -6,8 +6,8 @@ const crypto = require('crypto');
 const { validationResult } = require('express-validator/check');
 
  
- const apiKey = '1eadda0b6fe5280a4b76d7ba425e542f-7cd1ac2b-18967b5a';
-  const  domain ='sandbox2b34bd2757c4484bb9e91c1526c654b0.mailgun.org';
+ const apiKey = 'Your API_KEY';
+  const  domain ='Your Domain';
   const mailgun = require('mailgun-js')({apiKey, domain}) ;
 
 
