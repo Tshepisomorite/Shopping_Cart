@@ -153,7 +153,7 @@ exports.postSignup = (req, res, next) => {
           //res.status(201).json({message: 'User created!', userId:result._id});
           mailgun.messages().send({
             to: req.body.email,
-            from: 'tspepiso21@gmail.com',
+            from: 'tmorite@gmail.com',
             subject: 'Signup Succeeded',
             html: '<h1>You have successfully signed up!</h1>'
             
@@ -213,7 +213,7 @@ exports.postReset = (req, res, next) => {
         mailgun.messages().send({
           
           to: req.body.email,
-          from: 'tspepiso21@gmail.com',
+          from: 'tmorite@gmail.com',
           subject: 'Password reset',
           html: `
             <p>You requested a password reset </p>
