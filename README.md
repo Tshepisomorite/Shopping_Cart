@@ -1,5 +1,5 @@
 # Shopping_Cart
-##hosted on heroku:https://git.heroku.com/bohlokoa-online-shop.git
+hosted on heroku:https://bohlokoa-online-shop.herokuapp.com/
 
 ###### sell products on our online store 
 
