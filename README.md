@@ -1,7 +1,7 @@
 # Shopping_Cart
 hosted on heroku:https://bohlokoa-online-shop.herokuapp.com/
 
-###### sell products on our online store 
+###### Sell your second hand products online. 
 
 ##### This app uses Node.Js|Express.js|MVC|MongoDB|EJS template|Stripe and Mailgun 
 
